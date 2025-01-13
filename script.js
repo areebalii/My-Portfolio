@@ -4,7 +4,7 @@ const navMenu = document.querySelector('.links');
 
 // Add click event to toggle menu visibility
 menuIcon.addEventListener('click', () => { 
-  navMenu.classList.add('active');
+  navMenu.classList.toggle('active');
 });
 navMenu.addEventListener("click", () => {
   navMenu.classList.remove('active');
